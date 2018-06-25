@@ -12,7 +12,7 @@ describe('calculator', () => {
     }); 
 
     it('subtracts two numbers', () => {
-        const total = subtract(3, 4);
+        const total = subtract(4, 3);
         assert.equal(total, 1);
     })
 

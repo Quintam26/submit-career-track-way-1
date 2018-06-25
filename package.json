@@ -12,10 +12,11 @@
     "mocha": "^5.2.0"
   },
   "scripts": {
-    "lint": "eslint",
-    "pretetst": "npm run lint",
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "npm run test:mocha",
     "test:mocha": "mocha",
-    "start": "npm run tet:mocha -- w"
+    "start": "npm run test:mocha -- -w"
   },
   "repository": {
     "type": "git",
